@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from './App'
+ReactDOM.render(<App />, document.getElementById('app'))
+
 
 class Layout extends React.Component {
   render(){
@@ -15,6 +17,3 @@ class Layout extends React.Component {
 
 
 
-// const app = document.getElementById('app');
-
-// ReactDOM.render(<Layout/>, app)
